@@ -11,6 +11,6 @@
         session.setAttribute("userid", userName);
         response.sendRedirect("success.jsp");
     } else {
-        out.println("Invalid password <a href='index.jsp'>try again</a>");
+        out.println("password Invalid <a href='index.jsp'>try again</a>");
     }
 %>
